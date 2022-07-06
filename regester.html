@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="register_style.css">
+</head>
+<body class="body1">
+   <div class="container">
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet consectetur<br>
+             adipisicing elit. Vitae, commodi.<br>
+             Eos nobis quam architecto deserunt<br>
+              fugit alias illum error delectus,</p>
+        </div>
+        <div class="_form">
+              <form action="examing login .html" onsubmit="checkpass(event)">
+<input class="f-name" name="firstname" type="text" placeholder=" firstName"  pattern="(?=.*[a-z]).{3,}" required><br><br>
+<input class="l-name" name="lastname" type="text" placeholder=" lastName" pattern="(?=.*[a-z]).{3,}" required><br><br>
+<input class="email" name="email" type="email" placeholder=" email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required><br><br>
+<input class="pass" name="password" type="password" placeholder=" password"  pattern=".{8,}" required><br><br>
+<input class="re-pass"  type="password" placeholder=" Re-password"  pattern=".{8,}" required ><br><br>
+<input class="btn" type="submit" value="register" ><br>
+
+        </form>
+        </div>
+   </div>
+
+   <script src="register .js"></script>    
+</body>
+</html>

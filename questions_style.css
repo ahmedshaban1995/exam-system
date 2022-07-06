@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    position: relative;
+    left:1rem;
+    /* top: 5rem; */
+}
+.p-2{
+    width: 70%;
+    background-color: aqua;
+    margin:10px 40px ;
+}
+.p-2:hover {
+    background-color: yellow;
+  }
+.p-3{
+    width:70%;
+    background-color: rgb(80, 210, 143);
+    margin:10px;
+    
+}
+.btn-primary{
+    padding: 20px;
+    justify-items: space-between;
+}
+.btn-danger{
+    position: relative;
+    left: 30rem;
+    bottom: 10rem;
+}
+.sidebar{
+    width: 20rem;
+    height: 20rem;
+    background-color: bisque;
+    position: relative;
+    left: 60rem;
+    bottom:16rem;
+
+}
+.container-fluid{
+    background-color:cornsilk;
+    height:5rem;
+}
+a{
+    font-style: white italic;
+    text-decoration: none;
+
+}
